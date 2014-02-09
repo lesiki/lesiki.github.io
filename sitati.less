@@ -27,7 +27,7 @@ div.fullHeight {
 .landing {
 }
 .samples {
-	background-color:#ccc;
+	background-color:#efefef;
 }
 #mainMenu {
 	margin:0;
@@ -76,4 +76,41 @@ div.fullHeight {
 }
 #homeLink {
 	position:fixed;
+}
+div.fauxBorder {
+	font-size:0;
+	position:absolute;
+	bottom:0;
+	height:5px;
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color:#333;
+	.border {
+		.vendor(transition, opacity 800ms);
+		display:inline-block;
+		width:20%;
+		height:100%;
+		margin:0;
+		padding:0;
+		opacity: 0;
+		&.displayed {
+			opacity: 1;
+		}
+	}
+	.red {
+		background-color:#e11;
+	}
+	.yellow {
+		background-color:#DFE619;
+	}
+	.green {
+		background-color:#4CE619;
+	}
+	.blue {
+		background-color:#19A9E6;
+	}
+	.purple {
+		background-color:#7C19E6;
+	}
 }
