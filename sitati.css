@@ -14,9 +14,12 @@ h1 {
   font-weight: 300;
 }
 div.fullHeight {
-  position: static;
+  position: relative;
   height: 100%;
+  min-height: 600px;
   width: 100%;
+  margin: 0;
+  padding-top: 20px;
 }
 .samples {
   background-color: #efefef;
@@ -67,13 +70,20 @@ div.fullHeight {
   width: 100%;
   text-align: center;
 }
+#landingList a {
+  text-decoration: none;
+  color: inherit;
+}
+#landingList a:hover {
+  color: #3333cc;
+}
+#landingList a:hover i {
+  color: #3333cc !important;
+}
 #landingList i.icon {
   margin: 3px auto;
   display: block;
   color: #444;
-}
-#homeLink {
-  position: fixed;
 }
 div.fauxBorder {
   font-size: 0;
@@ -114,4 +124,27 @@ div.fauxBorder .blue {
 }
 div.fauxBorder .purple {
   background-color: #7C19E6;
+}
+@media (max-width: 960px) {
+  #landingList .item {
+    display: block !important;
+    margin-left: 0;
+  }
+  #landingList .item i {
+    font-size: 2em;
+  }
+  .landingSquare {
+    top: 20%;
+  }
+}
+@media (max-width: 370) {
+  h1 {
+    font-size: 1.2em;
+  }
+}
+.portfolio {
+  background-color: #f9f9f9;
+}
+.portfolio h2 {
+  color: #3f4a39;
 }

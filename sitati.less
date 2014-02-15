@@ -23,9 +23,12 @@ h1 {
 	font-weight:300;
 }
 div.fullHeight {
-	position:static;
+	position:relative;
 	height:100%;
+	min-height:600px;
 	width:100%;
+	margin:0;
+	padding-top:20px;
 }
 .landing {
 }
@@ -66,6 +69,16 @@ div.fullHeight {
 	text-align:center;
 }
 #landingList {
+	a {
+		text-decoration:none;
+		color:inherit;
+		&:hover {
+			color:@poyple;
+			i {
+				color:@poyple !important;
+			}
+		}
+	}
 	i.icon {
 		margin:3px auto;
 		display:block;
@@ -76,9 +89,6 @@ div.fullHeight {
 	bottom:30;
 	width:100%;
 	text-align:center;
-}
-#homeLink {
-	position:fixed;
 }
 div.fauxBorder {
 	font-size:0;
@@ -115,5 +125,28 @@ div.fauxBorder {
 	}
 	.purple {
 		background-color:#7C19E6;
+	}
+}
+@media (max-width: 960px) {
+	#landingList .item {
+		display:block !important;
+		margin-left:0;
+		i {
+			font-size:2em;
+		}
+	}
+	.landingSquare {
+		top:20%;
+	}
+}
+@media (max-width: 370) {
+	h1 {
+		font-size:1.2em;
+	}
+}
+.portfolio {
+	background-color:#f9f9f9;
+	h2 {
+		color:#3f4a39;
 	}
 }

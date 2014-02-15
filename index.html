@@ -14,8 +14,8 @@
 					<i class="home icon"></i>
 					</a>
 				<div class="right menu">
-					<a class="green item"><i class="github icon "></i></a>
-					<a class="item"><i class="twitter icon "></i></a>
+					<a class="green item" data-scroll data-speed="200" data-easing="easeInOutCubic" data-url="false" href="#github"><i class="github icon "></i></a>
+					<a class="item"  target="_blank" href="http://twitter.com/sitatik"><i class="twitter icon "></i></a>
 					<a class="item"><i class="mail icon "></i></a>
 				</div>
 			</div>
@@ -29,31 +29,39 @@
 			<div id="landingList" class="ui very relaxed horizontal list">
 				<div class="item">
 					<div class="content">
-						<i class="huge code icon"></i>
-						<a class="header">Some of my work</a>
-						<div class="description">Some things I've built</div>
+						<a href="#">
+							<i class="huge code icon"></i>
+							<span class="header">Some of my work</span>
+							<div class="description">Some things I've built</div>
+						</a>
 					</div>
 				</div>
 				<div class="item">
-					<div class="content">
-						<i class="huge lab icon"></i>
-						<a class="header">Experiments</a>
-						<div class="description">Some of these might work</div>
-					</div>
+					<a href="#">
+						<div class="content">
+							<i class="huge lab icon"></i>
+							<a class="header">Experiments</a>
+							<div class="description">Some of these might work</div>
+						</div>
+					</a>
 				</div>
 				<div class="item">
-					<div class="content">
-						<i class="huge time icon"></i>
-						<a class="header">Timeline</a>
-						<div class="description">Sitati, on a timeline</div>
-					</div>
+					<a href="#">
+						<div class="content">
+							<i class="huge time icon"></i>
+							<a class="header">Timeline</a>
+							<div class="description">Sitati, on a timeline</div>
+						</div>
+					</a>
 				</div>
 				<div class="item">
-					<div class="content">
-						<i class="huge anchor icon"></i>
-						<a class="header">Other</a>
-						<div class="description">Links to things of interest</div>
-					</div>
+					<a href="#">
+						<div class="content">
+							<i class="huge anchor icon"></i>
+							<a class="header">Other</a>
+							<div class="description">Links to things of interest</div>
+						</div>
+					</a>
 				</div>
 			</div>
 			<div class="fauxBorder">
@@ -64,8 +72,15 @@
 				<i class="purple border"></i>
 			</div>
 		</div>
-		<div class="fullHeight samples">
-			
+		<div class="fullHeight portfolio">
+			<div>
+
+			<h2>Some of my work</h2>
+			</div>
 		</div>
+		<div class="fullHeight" id="github">
+			<!--	<iframe src="http://ghactivity.com/lesiki/7" frameborder="0" width="100%" height="100%"></iframe>			-->
+		</div>
+		<script type="text/javascript" src="javascript/smooth-scroll.js"></script>
 	</body>
 </html>
