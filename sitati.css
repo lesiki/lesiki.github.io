@@ -19,7 +19,6 @@ div.fullHeight {
   min-height: 600px;
   width: 100%;
   margin: 0;
-  padding-top: 20px;
 }
 .samples {
   background-color: #efefef;
@@ -147,4 +146,6 @@ div.fauxBorder .purple {
 }
 .portfolio h2 {
   color: #3f4a39;
+  margin-top: 0;
+  padding-top: 20px;
 }
