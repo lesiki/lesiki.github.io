@@ -145,9 +145,81 @@ div.fauxBorder {
 }
 .portfolio {
 	background-color:#f9f9f9;
+	padding:10px;
 	h2 {
+		text-align:center;
 		color:#3f4a39;
 		margin-top:0;
 		padding-top:20px;
+		font-weight:300;
+	}
+	.reveal {
+		.content {
+			background-color:#400;
+			color:#eee;
+			width:300px;
+			height:200px;
+			font-size:0.8em;
+			padding:10px;
+			text-align:center;
+			h3 {
+				font-weight:300;
+				color:#efefef;
+				font-size:1.8em;
+			}
+			&.description {
+				h3 {
+					font-size:1.1em;
+				}
+				.meta {
+					a {
+						display:block;
+						color:#fff;
+					}
+				}
+			}
+		}
+		&.large {
+			.content {
+				width:400px;
+				height:200px;
+			}
+		}
+		&.frontlinesms {
+			.content:first-child {
+				background:url(images/fsms.png) 30px 10px no-repeat;
+				background-color:white;
+			}
+			.content:last-child {
+				background-color:#c03284;
+			}
+		}
+		&.moja {
+			.content:first-child {
+				background:url(images/moja.jpg) no-repeat;
+				background-color:white;
+			}
+			.content:last-child {
+				background-color:#727272;
+			}
+		}
+		&.togglah {
+			.content:first-child {
+				background-color:#ff9955;
+				h3 { color:#bb4b00; }
+			}
+			.content:last-child {
+				background-color:#bb4b00;
+			}
+		}
+		&.versus {
+			.content:first-child {
+				background-color:#a90329;
+				h3 { color:#e07070; }
+			}
+			.content:last-child {
+				background-color:#e07070;
+			}
+		}
 	}
 }

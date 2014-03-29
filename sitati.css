@@ -143,9 +143,69 @@ div.fauxBorder .purple {
 }
 .portfolio {
   background-color: #f9f9f9;
+  padding: 10px;
 }
 .portfolio h2 {
+  text-align: center;
   color: #3f4a39;
   margin-top: 0;
   padding-top: 20px;
+  font-weight: 300;
+}
+.portfolio .reveal .content {
+  background-color: #400;
+  color: #eee;
+  width: 300px;
+  height: 200px;
+  font-size: 0.8em;
+  padding: 10px;
+  text-align: center;
+}
+.portfolio .reveal .content h3 {
+  font-weight: 300;
+  color: #efefef;
+  font-size: 1.8em;
+}
+.portfolio .reveal .content.description h3 {
+  font-size: 1.1em;
+}
+.portfolio .reveal .content.description .meta a {
+  display: block;
+  color: #fff;
+}
+.portfolio .reveal.large .content {
+  width: 400px;
+  height: 200px;
+}
+.portfolio .reveal.frontlinesms .content:first-child {
+  background: url(images/fsms.png) 30px 10px no-repeat;
+  background-color: white;
+}
+.portfolio .reveal.frontlinesms .content:last-child {
+  background-color: #c03284;
+}
+.portfolio .reveal.moja .content:first-child {
+  background: url(images/moja.jpg) no-repeat;
+  background-color: white;
+}
+.portfolio .reveal.moja .content:last-child {
+  background-color: #727272;
+}
+.portfolio .reveal.togglah .content:first-child {
+  background-color: #ff9955;
+}
+.portfolio .reveal.togglah .content:first-child h3 {
+  color: #bb4b00;
+}
+.portfolio .reveal.togglah .content:last-child {
+  background-color: #bb4b00;
+}
+.portfolio .reveal.versus .content:first-child {
+  background-color: #a90329;
+}
+.portfolio .reveal.versus .content:first-child h3 {
+  color: #e07070;
+}
+.portfolio .reveal.versus .content:last-child {
+  background-color: #e07070;
 }
