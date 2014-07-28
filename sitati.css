@@ -214,8 +214,11 @@ div.fauxBorder .purple {
   background-color: #FFD700;
 }
 .portfolio .reveal.sokoban .content:first-child h3 {
-  color: #bba100;
+  color: #B2962F;
 }
 .portfolio .reveal.sokoban .content:last-child {
-  background-color: #bba100;
+  background-color: #B2962F;
+}
+#github {
+  border-top: 4px solid #555;
 }
