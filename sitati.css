@@ -144,6 +144,7 @@ div.fauxBorder .purple {
 .portfolio {
   background-color: #f9f9f9;
   padding: 10px;
+  text-align: center;
 }
 .portfolio h2 {
   text-align: center;
@@ -208,4 +209,13 @@ div.fauxBorder .purple {
 }
 .portfolio .reveal.versus .content:last-child {
   background-color: #e07070;
+}
+.portfolio .reveal.sokoban .content:first-child {
+  background-color: #FFD700;
+}
+.portfolio .reveal.sokoban .content:first-child h3 {
+  color: #bba100;
+}
+.portfolio .reveal.sokoban .content:last-child {
+  background-color: #bba100;
 }
