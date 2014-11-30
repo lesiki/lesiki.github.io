@@ -61,6 +61,13 @@ div.fullHeight {
   margin-top: -100px;
   text-align: center;
 }
+.landingSquare .scrollDown {
+  margin-top: 20%;
+  display: block;
+}
+.landingSquare .scrollDown span.arrow {
+  font-size: 3em;
+}
 #landingList {
   font-size: 1.3em;
   position: absolute;
@@ -193,38 +200,64 @@ div.fauxBorder .purple {
 }
 .portfolio .reveal.togglah .content:first-child {
   background-color: #ff9955;
+  background: url(images/congruent_pentagon.png) no-repeat;
 }
 .portfolio .reveal.togglah .content:first-child h3 {
-  color: #bb4b00;
+  color: #45604d;
 }
 .portfolio .reveal.togglah .content:last-child {
-  background-color: #bb4b00;
+  background-color: #45604d;
 }
 .portfolio .reveal.versus .content:first-child {
-  background-color: #a90329;
+  background-color: #;
+  background: url(images/escheresque_ste.png);
 }
 .portfolio .reveal.versus .content:first-child h3 {
-  color: #e07070;
+  color: #a90329;
 }
 .portfolio .reveal.versus .content:last-child {
-  background-color: #e07070;
+  background-color: #a90329;
+}
+.portfolio .reveal.more .content:first-child {
+  background-color: #fff;
+}
+.portfolio .reveal.more .content:first-child h3 {
+  color: #605f5e;
+}
+.portfolio .reveal.more .content:last-child {
+  background-color: #9fa29e;
 }
 .portfolio .reveal.sokoban .content:first-child {
   background-color: #FFD700;
+  background: url(images/restaurant.png);
 }
 .portfolio .reveal.sokoban .content:first-child h3 {
-  color: #B2962F;
+  color: #608f8e;
 }
 .portfolio .reveal.sokoban .content:last-child {
-  background-color: #B2962F;
+  background-color: #608f8e;
 }
 .portfolio .reveal.checkyoself .content:first-child {
   background: url(images/check.png) no-repeat;
   background-color: #bbb;
 }
 .portfolio .reveal.checkyoself .content:first-child h3 {
+  margin-top: 0;
   text-align: right;
+  color: #fff;
 }
 .portfolio .reveal.checkyoself .content:last-child {
-  background-color: #727272;
+  background-color: #999;
+  color: #fff;
+}
+.portfolio .reveal.pixl .content:first-child {
+  background: url(images/pixl.png) no-repeat;
+  background-color: #323333;
+}
+.portfolio .reveal.pixl .content:first-child h3 {
+  text-align: right;
+}
+.portfolio .reveal.pixl .content:last-child {
+  background-color: #902fdc;
+  color: #fff;
 }

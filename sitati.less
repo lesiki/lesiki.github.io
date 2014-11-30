@@ -65,6 +65,13 @@ div.fullHeight {
 	margin-left: -200px;
 	margin-top: -100px;
 	text-align:center;
+	.scrollDown {
+		margin-top:20%;
+		display:block;
+		span.arrow {
+			font-size:3em;
+		}
+	}
 }
 #landingList {
 	a {
@@ -206,28 +213,40 @@ div.fauxBorder {
 		&.togglah {
 			.content:first-child {
 				background-color:#ff9955;
-				h3 { color:#bb4b00; }
+				background:url(images/congruent_pentagon.png) no-repeat;
+				h3 { color:#45604d; }
 			}
 			.content:last-child {
-				background-color:#bb4b00;
+				background-color:#45604d;
 			}
 		}
 		&.versus {
 			.content:first-child {
-				background-color:#a90329;
-				h3 { color:#e07070; }
+				background-color:#;
+				background:url(images/escheresque_ste.png);
+				h3 { color:#a90329; }
 			}
 			.content:last-child {
-				background-color:#e07070;
+				background-color:#a90329;
+			}
+		}
+		&.more {
+			.content:first-child {
+				background-color:#fff;
+				h3 { color:#605f5e; }
+			}
+			.content:last-child {
+				background-color:#9fa29e;
 			}
 		}
 		&.sokoban {
 			.content:first-child {
 				background-color:#FFD700;
-				h3 { color:#B2962F; }
+				background:url(images/restaurant.png);
+				h3 { color:#608f8e; }
 			}
 			.content:last-child {
-				background-color:#B2962F;
+				background-color:#608f8e;
 			}
 		}
 		&.checkyoself {
@@ -235,11 +254,27 @@ div.fauxBorder {
 				background:url(images/check.png) no-repeat;
 				background-color:#bbb;
 				h3 {
+					margin-top:0;
+					text-align:right;
+					color:#fff;
+				}
+			}
+			.content:last-child {
+				background-color:#999;
+				color:#fff;
+			}
+		}
+		&.pixl {
+			.content:first-child {
+				background:url(images/pixl.png) no-repeat;
+				background-color:#323333;
+				h3 {
 					text-align:right;
 				}
 			}
 			.content:last-child {
-				background-color:#727272;
+				background-color:#902fdc;
+				color:#fff;
 			}
 		}
 	}
