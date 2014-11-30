@@ -218,6 +218,13 @@ div.fauxBorder .purple {
 .portfolio .reveal.sokoban .content:last-child {
   background-color: #B2962F;
 }
-#github {
-  border-top: 4px solid #555;
+.portfolio .reveal.checkyoself .content:first-child {
+  background: url(images/check.png) no-repeat;
+  background-color: #bbb;
+}
+.portfolio .reveal.checkyoself .content:first-child h3 {
+  text-align: right;
+}
+.portfolio .reveal.checkyoself .content:last-child {
+  background-color: #727272;
 }
