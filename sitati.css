@@ -13,6 +13,13 @@ h1 {
   font-size: 4em;
   font-weight: 300;
 }
+h2 {
+  text-align: center;
+  color: #3f4a39;
+  margin-top: 0;
+  padding-top: 20px;
+  font-weight: 300;
+}
 div.fullHeight {
   position: relative;
   min-height: 100%;
@@ -152,13 +159,6 @@ div.fauxBorder .purple {
   padding: 10px;
   text-align: center;
 }
-.portfolio h2 {
-  text-align: center;
-  color: #3f4a39;
-  margin-top: 0;
-  padding-top: 20px;
-  font-weight: 300;
-}
 .portfolio .reveal .content {
   background-color: #400;
   color: #eee;
@@ -262,6 +262,29 @@ div.fauxBorder .purple {
 .portfolio .reveal.pixl .content:last-child {
   background-color: #902fdc;
   color: #fff;
+}
+.bio {
+  border-top: 4px solid #c33;
+  padding: 10px;
+  background-color: #333;
+  color: #ddd;
+}
+.bio h2 {
+  color: c33;
+}
+.bio p {
+  text-align: center;
+  font-size: 1.3em;
+  padding: 4px 10px;
+}
+.bio p em {
+  color: f9f9f9;
+  font-size: 1.4em;
+  font-style: normal;
+}
+.bio p a {
+  color: eee;
+  text-decoration: underline;
 }
 .fadeIn {
   -webkit-animation: fadein 2s;
