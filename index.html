@@ -2,9 +2,11 @@
 	<head>
 		<title>Sitati Kituyi</title>
 		<link rel="stylesheet" href="css/semantic.min.css" />
+		<link rel="stylesheet" href="css/animate.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 		<script type="text/javascript" src="javascript/semantic.js"></script>
-		<script type="text/javascript" src="sitati.js"></script>
+		<script type="text/javascript" src="javascript/sitati.js"></script>
+		<script type="text/javascript" src="javascript/wow.min.js"></script>
 		<link rel="stylesheet" href="sitati.css" />
 	</head>
 	<body>
@@ -20,11 +22,11 @@
 			</div>
 			<div class="landingSquare">
 				<p class="fadeIn">Hi, I'm</p>
-				<h1 class="fadeIn">Sitati Kituyi</h1>
+				<h1 class="fadeIn" data-wow-offset="10">Sitati Kituyi</h1>
 				<p class="fadeIn">
 					I'm a software developer based in Nairobi, Kenya.
 				</p>
-				<div class="scrollDown fadeIn">
+				<div class="scrollDown wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.25s">
 					<p>Scroll down to see some of my work</p>
 					<span class="arrow">&#x25BC;</span>
 				</div>
@@ -38,8 +40,8 @@
 			</div>
 		</div>
 		<div class="fullHeight portfolio">
-			<h2>Some of my work</h2>
-			<div class="ui instant masked up move reveal large frontlinesms">
+			<h2 data-wow-duration="2s" data-wow-delay="0s" class="wow fadeInUp">Some of my work</h2>
+			<div data-wow-duration="2s" data-wow-delay="0.5s" class="wow fadeInUp ui instant masked up move reveal large frontlinesms">
 				<div class="visible content"></div>
 				<div class="hidden content description">
 					<h3>FrontlineSMS (the day job)</h3>
@@ -52,7 +54,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="ui instant masked up move reveal togglah">
+			<div data-wow-duration="2s" data-wow-delay="0.75s" class="wow fadeInUp ui instant masked up move reveal togglah">
 				<div class="visible content">
 					<h3>Togglah</h3>
 				</div>
@@ -66,7 +68,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="ui instant masked up move reveal versus">
+			<div data-wow-duration="2s" data-wow-delay="1s" class="wow fadeInUp ui instant masked up move reveal versus">
 				<div class="visible content">
 					<h3>Versus.js</h3>
 				</div>
@@ -80,7 +82,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="ui instant masked up move reveal checkyoself">
+			<div data-wow-duration="2s" data-wow-delay="1.25s" class="wow fadeInUp ui instant masked up move reveal checkyoself">
 				<div class="visible content">
 					<h3>checkyoself</h3>
 				</div>
@@ -94,7 +96,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="ui instant masked up move reveal moja">
+			<div data-wow-duration="2s" data-wow-delay="1.5s" class="wow fadeInUp ui instant masked up move reveal moja">
 				<div class="visible content"></div>
 				<div class="hidden content description">
 					<h3>Moja Tees</h3>
@@ -107,7 +109,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="ui instant masked up move reveal large pixl">
+			<div data-wow-duration="2s" data-wow-delay="1.75s" class="wow fadeInUp ui instant masked up move reveal large pixl">
 				<div class="visible content">
 				</div>
 				<div class="hidden content description">
@@ -120,7 +122,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="ui instant masked up move reveal large sokoban">
+			<div data-wow-duration="2s" data-wow-delay="2s" class="wow fadeInUp ui instant masked up move reveal large sokoban">
 				<div class="visible content">
 					<h3>Maths Sokoban</h3>
 				</div>
@@ -134,7 +136,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="ui instant masked up move reveal more">
+			<div data-wow-duration="2s" data-wow-delay="2.25s" class="wow fadeInUp ui instant masked up move reveal more">
 				<div class="visible content">
 					<h3>...more</h3>
 				</div>
@@ -149,12 +151,15 @@
 			</div>
 		</div>
 		<div class="fullHeight bio">
-			<h2>About me</h2>
-			<p>I'm currently <em>Senior Software Developer</em> at <a href="http://frontlinesms.com" target="_blank">FrontlineSMS</a>, where I work with a cool team of devs and other techies on a <em>Groovy/Grails</em> app for SMS-based automation, as well as a complementary <em>Android</em> app. I'm a <em>Full Stack</em> dev in a team that does <em>DevOps</em>.</p>
-			<p>Prior to my time at Frontline, I worked at <a href="http://www.cgi.com/en" target="_blank">CGI</a> (formerly Logica), as a <em>middleware</em> software dev on a long-running <em>SOA</em>-based project in the private <em>telecommunications</em> sector.</p>
-			<p>I have a <em>Masters in Computer Engineering</em> from the University of Manchester. During my Uni years, I did a few internships, the longest being a 10-week placement at <em>Deutsche Bank</em> in London, where I helped automate in-house processes in their Liquidity Risk IT team.</p>
-			<p>Get in touch. sitati.kituyi at gmail</p>
+			<h2 class="wow fadeInUp">About me</h2>
+			<p class="wow fadeInUp">I'm currently <em>Senior Software Developer</em> at <a href="http://frontlinesms.com" target="_blank">FrontlineSMS</a>, where I work with a cool team of devs and other techies on a <em>Groovy/Grails</em> app for SMS-based automation, as well as a complementary <em>Android</em> app. I'm a <em>Full Stack</em> dev in a team that does <em>DevOps</em>.</p>
+			<p class="wow fadeInUp">Prior to my time at Frontline, I worked at <a href="http://www.cgi.com/en" target="_blank">CGI</a> (formerly Logica), as a <em>middleware</em> software dev on a long-running <em>SOA</em>-based project in the private <em>telecommunications</em> sector.</p>
+			<p class="wow fadeInUp">I have a <em>Masters in Computer Engineering</em> from the University of Manchester. During my Uni years, I did a few internships, the longest being a 10-week placement at <em>Deutsche Bank</em> in London, where I helped automate in-house processes in their Liquidity Risk IT team.</p>
+			<p class="wow fadeInUp">Get in touch. sitati.kituyi at gmail</p>
 		</div>
 		<script type="text/javascript" src="javascript/smooth-scroll.js"></script>
+		<script>
+			new WOW().init();
+		</script>
 	</body>
 </html>
