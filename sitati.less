@@ -311,6 +311,27 @@ div.fauxBorder {
 	-o-animation: fadein 2s; /* Opera < 12.1 */
 	animation: fadein 2s;
 }
+.etc {
+	padding:4px 10px;
+	text-align:center;
+	h2 {
+		color:#222;
+	}
+	a {
+		color:#555;
+		font-size:18pt;
+		text-decoration:none;
+		&:hover {
+			text-decoration:underline;
+			color:#777;
+		}
+		small {
+			font-size:12pt;
+			color:#888;
+		}
+		display:block;
+	}
+}
 
 @keyframes fadein {
 	from { opacity: 0; }

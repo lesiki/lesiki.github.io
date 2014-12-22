@@ -301,6 +301,27 @@ div.fauxBorder .purple {
 
   animation: fadein 2s;
 }
+.etc {
+  padding: 4px 10px;
+  text-align: center;
+}
+.etc h2 {
+  color: #222;
+}
+.etc a {
+  color: #555;
+  font-size: 18pt;
+  text-decoration: none;
+  display: block;
+}
+.etc a:hover {
+  text-decoration: underline;
+  color: #777;
+}
+.etc a small {
+  font-size: 12pt;
+  color: #888;
+}
 @keyframes fadein {
   from {
     opacity: 0;
