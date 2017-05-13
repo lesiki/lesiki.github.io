@@ -191,6 +191,13 @@ div.fauxBorder .purple {
 .portfolio .reveal.frontlinesms .content:last-child {
   background-color: #c03284;
 }
+.portfolio .reveal.africanstockphoto .content:first-child {
+  background: url(images/asp.png) 10px 40px no-repeat;
+  background-color: #f0f0f0;
+}
+.portfolio .reveal.africanstockphoto .content:last-child {
+  background-color: #716658;
+}
 .portfolio .reveal.moja .content:first-child {
   background: url(images/moja.jpg) no-repeat;
   background-color: white;
