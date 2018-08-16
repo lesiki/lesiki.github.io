@@ -236,13 +236,14 @@ div.fauxBorder .purple {
 }
 .portfolio .reveal.sokoban .content:first-child {
   background-color: #FFD700;
-  background: url(images/restaurant.png);
+  background: url(images/sokoban.jpg);
+  background-size:cover;
 }
 .portfolio .reveal.sokoban .content:first-child h3 {
   color: #608f8e;
 }
 .portfolio .reveal.sokoban .content:last-child {
-  background-color: #608f8e;
+  background-color: #041c00;
 }
 .portfolio .reveal.checkyoself .content:first-child {
   background: url(images/check.png) no-repeat;
