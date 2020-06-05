@@ -167,6 +167,9 @@ div.fauxBorder .purple {
   font-size: 0.8em;
   padding: 10px;
   text-align: center;
+  -webkit-box-shadow: -1px 3px 11px -4px rgba(0,0,0,0.66);
+  -moz-box-shadow: -1px 3px 11px -4px rgba(0,0,0,0.66);
+  box-shadow: -1px 3px 11px -4px rgba(0,0,0,0.66);
 }
 .portfolio .reveal .content h3 {
   font-weight: 300;
@@ -191,9 +194,17 @@ div.fauxBorder .purple {
 .portfolio .reveal.frontlinesms .content:last-child {
   background-color: #c03284;
 }
+.portfolio .reveal.pula .content:first-child {
+  background: url(images/pula_full_logo.png) no-repeat 55% 50%;
+  background-size: 90%;
+  background-color: #f0f0f0;
+}
+.portfolio .reveal.pula .content:last-child {
+  background-color: rgb(57,150, 215);
+}
 .portfolio .reveal.africanstockphoto .content:first-child {
   background: url(images/asp.png) 10px 40px no-repeat;
-  background-color: #f0f0f0;
+  background-color: #fafafa;
 }
 .portfolio .reveal.africanstockphoto .content:last-child {
   background-color: #716658;
@@ -258,6 +269,26 @@ div.fauxBorder .purple {
   background-color: #999;
   color: #fff;
 }
+.portfolio .reveal.meet-acc .content:first-child {
+  background-color: #323333;
+}
+.portfolio .reveal.meet-acc .content:first-child i {
+  font-size:120px;
+}
+.portfolio .reveal.meet-acc .content:first-child h3 {
+  margin-top: 0;
+  text-align: right;
+  float:right;
+  padding-right:5px;
+  max-width:50%;
+  float:right;
+  overflow-wrap: normal;
+  color: #fff;
+}
+.portfolio .reveal.meet-acc .content:last-child {
+  background-color: #999;
+  color: #fff;
+}
 .portfolio .reveal.pixl .content:first-child {
   background: url(images/pixl.png) no-repeat;
   background-size: 60%;
@@ -273,21 +304,20 @@ div.fauxBorder .purple {
 }
 .bio {
   border-top: 4px solid #c33;
-  padding: 10px;
+  padding: 10px 20px;
   background-color: #333;
   color: #ddd;
+  
 }
 .bio h2 {
   color: c33;
 }
 .bio p {
-  text-align: center;
   font-size: 1.3em;
   padding: 4px 10px;
 }
 .bio p em {
   color: f9f9f9;
-  font-size: 1.4em;
   font-style: normal;
 }
 .bio p a {
@@ -312,6 +342,7 @@ div.fauxBorder .purple {
 .etc {
   padding: 4px 10px;
   text-align: center;
+  padding-bottom:20px;
 }
 .etc h2 {
   color: #222;
