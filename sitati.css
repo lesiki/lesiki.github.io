@@ -190,30 +190,32 @@ div.fauxBorder .purple {
   height: 200px;
 }
 .portfolio .reveal.frontlinesms .content:first-child {
-  background: url(images/fsms.png) 30px 10px no-repeat;
+  background: url(images/fsms.png) no-repeat 50% 50%;
+  background-size: 40%;
   background-color: white;
 }
 .portfolio .reveal.frontlinesms .content:last-child {
   background-color: #c03284;
 }
 .portfolio .reveal.hodi .content:first-child {
-  background: url(images/hodi.png) no-repeat 55% 50%;
-  background-size: 40%;
+  background: url(images/hodi.png) no-repeat 50% 50%;
+  background-size: 20%;
   background-color: #f6ae2d;
 }
 .portfolio .reveal.hodi .content:last-child {
   background-color: #310a31;
 }
 .portfolio .reveal.pula .content:first-child {
-  background: url(images/pula_full_logo.png) no-repeat 55% 50%;
-  background-size: 90%;
+  background: url(images/pula_full_logo.png) no-repeat 50% 50%;
+  background-size: 40%;
   background-color: #f0f0f0;
 }
 .portfolio .reveal.pula .content:last-child {
   background-color: rgb(57,150, 215);
 }
 .portfolio .reveal.africanstockphoto .content:first-child {
-  background: url(images/asp.png) 10px 40px no-repeat;
+  background: url(images/asp.png) no-repeat 50% 50%;
+  background-size: 50%;
   background-color: #fafafa;
 }
 .portfolio .reveal.africanstockphoto .content:last-child {
