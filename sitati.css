@@ -196,6 +196,14 @@ div.fauxBorder .purple {
 .portfolio .reveal.frontlinesms .content:last-child {
   background-color: #c03284;
 }
+.portfolio .reveal.hodi .content:first-child {
+  background: url(images/hodi.png) no-repeat 55% 50%;
+  background-size: 40%;
+  background-color: #f6ae2d;
+}
+.portfolio .reveal.hodi .content:last-child {
+  background-color: #310a31;
+}
 .portfolio .reveal.pula .content:first-child {
   background: url(images/pula_full_logo.png) no-repeat 55% 50%;
   background-size: 90%;
