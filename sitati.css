@@ -20,6 +20,9 @@ h2 {
   padding-top: 20px;
   font-weight: 300;
 }
+h3 small {
+  display: block;
+}
 div.fullHeight {
   position: relative;
   min-height: 100%;
@@ -237,10 +240,6 @@ div.fauxBorder .purple {
 }
 .portfolio .reveal.togglah .content:last-child {
   background-color: #45604d;
-}
-.portfolio .reveal.versus .content:first-child {
-  background-color: #;
-  background: url(images/escheresque_ste.png);
 }
 .portfolio .reveal.versus .content:first-child h3 {
   color: #a90329;
