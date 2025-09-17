@@ -345,12 +345,18 @@ div.fauxBorder .purple {
   padding: 4px 10px;
 }
 .bio p em {
-  color: f9f9f9;
+  color: #ddd;
   font-style: normal;
 }
 .bio p a {
-  color: eee;
+  color: #ddd;
   text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.3);
+}
+.bio p:hover a {
+  color: #eee;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 1.0);
 }
 .fadeIn {
   -webkit-animation: fadein 2s;
